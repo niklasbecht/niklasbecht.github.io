@@ -1,0 +1,19 @@
+.video-container {
+    position: relative !important;
+    padding-bottom: 56.25% !important;
+    /* 16:9 */
+    height: 0 !important;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.xsmall,
+xsmall {
+    font-size: .435em
+}
