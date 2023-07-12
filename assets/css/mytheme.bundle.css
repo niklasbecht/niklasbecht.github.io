@@ -13,7 +13,20 @@
     height: 100% !important;
 }
 
-.xsmall,
-xsmall {
+.xsmall {
     font-size: .435em
+}
+
+
+/* Centered text */
+
+.centered-text {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100% !important;
+    height: 20% !important;
 }
