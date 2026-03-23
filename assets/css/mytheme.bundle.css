@@ -1,0 +1,38 @@
+.video-container {
+    position: relative !important;
+    padding-bottom: 56.25% !important;
+    /* 16:9 */
+    height: 0 !important;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.xsmall {
+    font-size: .435em
+}
+
+.img-src-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+/* Centered text */
+
+.centered-text {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100% !important;
+    height: 20% !important;
+}
